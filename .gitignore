@@ -1,0 +1,15 @@
+# Herramientas locales (no son parte del proyecto)
+colab-mcp/
+.mcp.json
+.claude/
+
+# Generados
+data/
+models/
+reports/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
+.gradio/
