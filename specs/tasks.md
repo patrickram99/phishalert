@@ -11,13 +11,13 @@ Estado: `[x]` hecho · `[ ]` pendiente. Cada tarea cita su requisito.
 - [x] T1.4 `seeds/seed_es.csv`: conjunto semilla en español (R4)
 - [x] T1.5 `data.py`: partición estratificada (R6)
 - [x] T1.6 `scripts/get_data.py`: CLI y resumen (R1, R8, R9)
-- [ ] T1.7 Ejecutar en Colab y verificar criterios de aceptación
+- [x] T1.7 Ejecutar en Colab y verificar criterios de aceptación
 
 ### 02 Clasificador
 - [x] T2.1 `train.py`: afinado con `Trainer` y métricas (R1–R5, R7)
 - [x] T2.2 `classifier.py`: `PhishClassifier` (R6)
 - [x] T2.3 `scripts/train.py`: CLI (R2, R3)
-- [ ] T2.4 Entrenamiento corto en Colab y verificación de criterios
+- [x] T2.4 Entrenamiento corto en Colab y verificación de criterios
 
 ### 03 Entidades y resaltado
 - [x] T3.1 `entities.py`: URL, EMAIL, TELEFONO (R1–R5, R7)
@@ -29,12 +29,12 @@ Estado: `[x]` hecho · `[ ]` pendiente. Cada tarea cita su requisito.
 ### 04 App web
 - [x] T4.1 `app.py`: interfaz Gradio con ejemplos (R1–R4, R8)
 - [x] T4.2 Modo heurístico y texto vacío (R5, R6)
-- [ ] T4.3 Lanzar desde Colab con enlace público (R7)
+- [x] T4.3 Lanzar desde Colab con enlace público (R7)
 
 ### Repositorio
 - [x] T0.1 Estructura, `README.md`, `requirements.txt`, `.gitignore`
-- [ ] T0.2 Publicar en GitHub
-- [ ] T0.3 Copia de la notebook en `notebooks/PhishAlert.ipynb`
+- [x] T0.2 Publicar en GitHub
+- [x] T0.3 Copia de la notebook en `notebooks/PhishAlert.ipynb`
 
 ## Evidencia 4 — 01/12
 

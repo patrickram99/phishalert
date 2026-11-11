@@ -104,7 +104,7 @@ def translate_en_es(texts: list[str], batch_size: int = 32) -> list[str]:
             [texts[j] for j in idx], return_tensors="pt", padding=True, truncation=True, max_length=256
         ).to(device)
         with torch.no_grad():
-            gen = model.generate(**enc, num_beams=1, max_new_tokens=256)
+            gen = model.generate(**enc, num_beams=1, max_length=256)
         for j, t in zip(idx, tokenizer.batch_decode(gen, skip_special_tokens=True)):
             out[j] = t
     return out

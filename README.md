@@ -22,7 +22,20 @@ Aplicación web que analiza el texto de un correo o mensaje (español o inglés)
 
 El proyecto se desarrolla guiado por especificaciones: ver [`specs/`](specs/) y el avance en [`specs/tasks.md`](specs/tasks.md).
 
+### Resultados de la Evidencia 3 (corrida en Colab, GPU T4, 11/11)
+
+| | |
+|---|---|
+| Datos | 22 609 mensajes: 19 582 en inglés y 3 027 en español; 7 132 phishing y 15 477 legítimos |
+| Entrenamiento | 6 000 mensajes, 1 época, 47 s |
+| Validación (2 261 mensajes) | accuracy 0.943 · precision 0.973 · recall 0.844 · F1 0.904 |
+| Pruebas | 30 de 30 |
+
+Son métricas de referencia sobre validación con el modelo corto; la evaluación formal sobre `test` es la spec 05.
+
 ## Ejecutar en Google Colab (recomendado)
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/patrickram99/phishalert/blob/main/notebooks/PhishAlert.ipynb)
 
 Abrir [`notebooks/PhishAlert.ipynb`](notebooks/PhishAlert.ipynb) en Colab con GPU (Entorno de ejecución → Cambiar tipo → T4) y ejecutar todas las celdas. La notebook clona este repositorio, descarga los datos, afina el modelo y lanza la app con un enlace público.
 
